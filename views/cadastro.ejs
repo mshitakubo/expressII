@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+       <p>
+           <h1>Formulário de cadastro!</h1>
+       </p>
+        <form action="guardar" method="POST" enctype="multipart/form-data">
+            <p>
+                <label for="">Nome: </label>
+            </p>
+                <input name="name" type="text" placeholder="Nome">
+            <p>
+                <label for="">E-mail: </label></p>
+                <input name="email" type="email" placeholder="Email">
+            <p>
+                <label for="">Senha: </label>
+            </p>
+            <input name="password" type="password" placeholder="******">
+            <p>
+                <label for="">Avatar</label>
+            </p>
+            <input type="file" name="avatar">
+            <p>
+                <button>Enviar</button>
+            </p>
+        </form>
+   
+</body>
+</html>
